@@ -1,0 +1,13 @@
+diff --git a/print.c b/print.c
+index 7fd9d53..15f0e3b 100644
+--- a/print.c
++++ b/print.c
+@@ -26,7 +26,7 @@
+ 
+ static int verbose = 0;
+ int print_level = LOG_INFO;
+-static int use_syslog = 1;
++static int use_syslog = 0;
+ static const char *progname;
+ static const char *message_tag;
+ 
